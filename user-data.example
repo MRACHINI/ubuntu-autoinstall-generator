@@ -1,5 +1,7 @@
 #cloud-config
 autoinstall:
+  source:
+    id: ubuntu-server-minimal
   version: 1
   identity:
     hostname: ubuntu-server
